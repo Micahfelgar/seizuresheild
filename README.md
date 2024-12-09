@@ -1,5 +1,5 @@
 # SeizureShield
-[Français](#Français)
+[Français](#français)
 
 ### What is it?
 SeizureSheild is a free, open source program in Python that is dedicated to making watching videos safe.
@@ -19,18 +19,17 @@ Unfortunatley, probably not. Updating this project consistently will require a l
 ---
 ## Français 
 [English](#seizureshield)
-### Qu'est-ce que c'est ?
+### Qu'est-ce que c'est?
 SeizureSheild est un programme gratuit et open source en Python qui permet de regarder des vidéos en toute sécurité.
 
-### Comment cela fonctionne-t-il ?
+### Comment cela fonctionne-t-il?
 Une fois le répertoire vidéo fourni, il commence à lire les images. Il prend la couleur moyenne de l'image en cours et la compare à la précédente. Si la teinte ou la luminosité change au-delà de la valeur autorisée, cela est noté. Si cela se produit dix fois ou plus en une minute, la vidéo est bloquée.
 
-### Comment cela fonctionne-t-il ?
-Comment puis-je l'utiliser ?
+### Comment puis-je l'utiliser?
 Il suffit de commencer le programme, de coller le répertoire de la vidéo que vous voulez analyser et d'attendre le résultat.
 
-### Pourquoi est-il aussi en anglais ?
+### Pourquoi est-il aussi en anglais?
 Ce programme a été créé pour un projet d'école qui est bilingue. J'ai écrit le programme en anglais et je l'ai ensuite traduit en français.
 
-### Est-ce qu'il redcevra des mises à jour ?
+### Est-ce qu'il redcevra des mises à jour?
 Malheureusement, probablement pas. La mise à jour de ce projet nécessitera beaucoup de temps, il se peut donc que le projet reçoive de petites mises à jour irrégulières.
