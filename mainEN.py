@@ -20,17 +20,6 @@ cv2.setLogLevel(0)
 video_path = input("Paste video path\n").replace('"', '')
 video_output = video_path
 
-"""
-(
-    ffmpeg
-    .input(video_path)
-    .filter("fps", fps=25, round="down")
-    .output(video_output)
-    .run(overwrite_output=True)
-)
-"""
-
-
 def warn(frame):
     seconds = math.floor(frame/cap.get(cv2.CAP_PROP_FPS))
     print(
