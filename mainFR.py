@@ -92,5 +92,6 @@ currentFrame = 0
 safe()
 endTime = time.time()
 print(f"Temps total : {round(endTime - startTime, 3)}")
+input("Appuyez sur « enter » pour quitter")
 
 cap.release()
