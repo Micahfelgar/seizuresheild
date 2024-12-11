@@ -43,7 +43,6 @@ difference = 0
 dramatic_change_countLight = 0
 dramatic_change_countHue = 0
 
-
 # CUSTOM SETTINGS
 thresholdLight = 50
 thresholdHue = 0.275
@@ -95,7 +94,7 @@ currentFrame = 0
 safe()
 endTime = time.time()
 print(f"Total time taken: {round(endTime - startTime, 3)}")
-print(f"Video is considered safe. Please proceed with caution")
+input("Press 'enter' to exit")
 
 # Release the video capture object
 cap.release()
